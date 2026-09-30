@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Activité de gestion d'un budget mensuel">
+    <title>Gestion d'un Budget Mensuel</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#accueil" class="logo">
+                💰 Budget<span>Plus</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#situation">Situation</a></li>
+                <li><a href="#budget">Budget</a></li>
+                <li><a href="#questions">Questions</a></li>
+                <li><a href="#correction">Correction</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section id="accueil" class="hero">
+
+            <div class="hero-content">
+
+                <span class="label">ACTIVITÉ 1</span>
+
+                <h1>
+                    Gestion d'un
+                    <span>Budget Mensuel</span>
+                </h1>
+
+                <p>
+                    Apprendre à gérer son argent, organiser ses dépenses
+                    et économiser pour l'avenir.
+                </p>
+
+                <a href="#budget" class="btn">
+                    Voir le budget →
+                </a>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="money-icon">💰</div>
+
+                <p>Budget mensuel</p>
+
+                <h2>3 000 DH</h2>
+
+                <div class="card-line"></div>
+
+                <div class="saving-info">
+                    <div>
+                        <strong>500 DH</strong>
+                        <small>Épargne</small>
+                    </div>
+
+                    <div>
+                        <strong>2 500 DH</strong>
+                        <small>Dépenses</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SITUATION -->
+        <section id="situation" class="section">
+
+            <div class="section-heading">
+                <span>01</span>
+                <h2>Situation</h2>
+            </div>
+
+            <div class="situation-card">
+
+                <div class="icon-box">💼</div>
+
+                <div>
+                    <h3>Mise en situation</h3>
+
+                    <p>
+                        Vous recevez un salaire mensuel de
+                        <strong>3 000 DH</strong>.
+                        Vous devez gérer votre argent pendant un mois
+                        en répartissant votre budget entre les dépenses
+                        essentielles, les loisirs et l'épargne.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="arabic-box">
+
+                <h3>📌 الوضعية</h3>
+
+                <p>
+                    تخيل أنك كتشد <strong>3000 درهم</strong> فالشهر،
+                    وخاصك تقسم هاد المبلغ بين المصاريف الضرورية،
+                    الترفيه والادخار.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- BUDGET -->
+        <section id="budget" class="section light-section">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Répartition du budget</h2>
+            </div>
+
+            <div class="budget-grid">
+
+                <!-- TABLE -->
+                <div class="card">
+
+                    <div class="card-header">
+                        <div>
+                            <span class="mini-label">PLANIFICATION</span>
+                            <h3>Budget mensuel</h3>
+                        </div>
+
+                        <span class="amount">3 000 DH</span>
+                    </div>
+
+                    <div class="table-wrapper">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>Catégorie</th>
+                                    <th>Montant</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>🏠 Logement</td>
+                                    <td>1 000 DH</td>
+                                </tr>
+
+                                <tr>
+                                    <td>🍔 Alimentation</td>
+                                    <td>700 DH</td>
+                                </tr>
+
+                                <tr>
+                                    <td>🚌 Transport</td>
+                                    <td>300 DH</td>
+                                </tr>
+
+                                <tr>
+                                    <td>📱 Téléphone</td>
+                                    <td>100 DH</td>
+                                </tr>
+
+                                <tr>
+                                    <td>🎉 Loisirs</td>
+                                    <td>400 DH</td>
+                                </tr>
+
+                                <tr class="saving-row">
+                                    <td>💰 Épargne</td>
+                                    <td>500 DH</td>
+                                </tr>
+
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td>Total</td>
+                                    <td>3 000 DH</td>
+                                </tr>
+                            </tfoot>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SUMMARY -->
+                <div class="card summary-card">
+
+                    <span class="mini-label">RÉSUMÉ</span>
+
+                    <h3>Votre budget</h3>
+
+                    <div class="summary-item">
+                        <span>Revenu</span>
+                        <strong>3 000 DH</strong>
+                    </div>
+
+                    <div class="summary-item">
+                        <span>Dépenses</span>
+                        <strong>2 500 DH</strong>
+                    </div>
+
+                    <div class="summary-item green">
+                        <span>Épargne</span>
+                        <strong>500 DH</strong>
+                    </div>
+
+                    <div class="progress-area">
+
+                        <div class="progress-text">
+                            <span>Taux d'épargne</span>
+                            <strong>16,7%</strong>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                        </div>
+
+                    </div>
+
+                    <p class="summary-description">
+                        Vous économisez 500 DH chaque mois,
+                        soit 16,7% de votre revenu.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUESTIONS -->
+        <section id="questions" class="section">
+
+            <div class="section-heading">
+                <span>03</span>
+                <h2>Questions</h2>
+            </div>
+
+            <div class="questions">
+
+                <article class="question">
+                    <div class="question-number">01</div>
+                    <div>
+                        <h3>Quel est le montant total des dépenses mensuelles ?</h3>
+                        <p>Calculez les dépenses nécessaires pendant le mois.</p>
+                    </div>
+                </article>
+
+                <article class="question">
+                    <div class="question-number">02</div>
+                    <div>
+                        <h3>Combien d'argent est consacré à l'épargne ?</h3>
+                        <p>Identifiez le montant réservé pour l'avenir.</p>
+                    </div>
+                </article>
+
+                <article class="question">
+                    <div class="question-number">03</div>
+                    <div>
+                        <h3>Que feriez-vous si vos dépenses augmentaient de 300 DH ?</h3>
+                        <p>Proposez une solution pour équilibrer votre budget.</p>
+                    </div>
+                </article>
+
+                <article class="question">
+                    <div class="question-number">04</div>
+                    <div>
+                        <h3>Quelles dépenses pourriez-vous réduire ?</h3>
+                        <p>Identifiez les dépenses non essentielles.</p>
+                    </div>
+                </article>
+
+                <article class="question">
+                    <div class="question-number">05</div>
+                    <div>
+                        <h3>Pourquoi est-il important de planifier son budget ?</h3>
+                        <p>Expliquez l'importance de la planification financière.</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CORRECTION -->
+        <section id="correction" class="section light-section">
+
+            <div class="section-heading">
+                <span>04</span>
+                <h2>Correction</h2>
+            </div>
+
+            <div class="answers">
+
+                <article class="answer">
+                    <span>01</span>
+                    <div>
+                        <h3>Montant total des dépenses</h3>
+                        <p>
+                            Le montant total des dépenses est de
+                            <strong>2 500 DH</strong>.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="answer">
+                    <span>02</span>
+                    <div>
+                        <h3>Montant consacré à l'épargne</h3>
+                        <p>
+                            Le montant consacré à l'épargne est de
+                            <strong>500 DH</strong>.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="answer">
+                    <span>03</span>
+                    <div>
+                        <h3>Augmentation des dépenses</h3>
+                        <p>
+                            Je réduirais certaines dépenses non essentielles
+                            afin de maintenir l'équilibre du budget.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="answer">
+                    <span>04</span>
+                    <div>
+                        <h3>Dépenses à réduire</h3>
+                        <p>
+                            Je pourrais réduire les dépenses de loisirs
+                            et les achats non nécessaires.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="answer">
+                    <span>05</span>
+                    <div>
+                        <h3>Importance du budget</h3>
+                        <p>
+                            La planification permet de contrôler les dépenses,
+                            d'éviter les dettes et d'épargner pour l'avenir.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONCLUSION -->
+        <section id="conclusion" class="conclusion">
+
+            <div class="conclusion-icon">🎯</div>
+
+            <span class="label">CONCLUSION</span>
+
+            <h2>
+                Bien gérer son argent,
+                c'est préparer son avenir.
+            </h2>
+
+            <p>
+                « La gestion financière personnelle permet de mieux organiser
+                son argent, de contrôler ses dépenses et de réaliser ses
+                objectifs financiers grâce à une bonne planification du budget. »
+            </p>
+
+            <div class="arabic-conclusion">
+
+                <strong>بالمختصر:</strong>
+
+                هاد النشاط كيعلمنا كيفاش نقسمو الفلوس ديالنا
+                بطريقة منظمة، ونوفرو جزء منها للمستقبل.
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            💰 BudgetPlus
+        </div>
+
+        <p>Activité 1 — Gestion d'un Budget Mensuel</p>
+
+        <p class="copyright">
+            © 2026 BudgetPlus
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
